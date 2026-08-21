@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 
 
 
+
 const Hero = () => {
   const imageRef = useRef(null);
 
@@ -77,7 +78,7 @@ const Hero = () => {
             className="group relative h-64 w-64 transition-opacity duration-500 ease-out md:h-80 md:w-64 lg:h-[30rem] lg:w-[25rem]"
           >
             <span className="pointer-events-none absolute -inset-2 rounded-xl bg-gradient-to-br from-violet-500/50 via-fuchsia-500/20 to-transparent opacity-0 blur-xl transition-opacity duration-500 group-hover:opacity-100" />
-            <Image
+            {/* <Image
               width={500}
               height={500}
               src="/images/milan.png"
@@ -87,7 +88,14 @@ const Hero = () => {
               priority
               unoptimized
               className="relative rounded-lg contrast-75 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.7)] transition-all ease-linear duration-700 group-hover:contrast-100"
-            />
+            /> */}
+            <img
+  src="/images/milan.png"
+  alt="Milan Bhattarai"
+  className="relative rounded-lg contrast-75 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.7)] transition-all ease-linear duration-700 group-hover:contrast-100"
+  width={500}
+  height={500}
+/>
           </motion.div>
         </motion.div>
       </div>
