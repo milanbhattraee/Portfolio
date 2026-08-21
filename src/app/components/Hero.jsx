@@ -52,10 +52,9 @@ const Hero = () => {
                 Full Stack Developer
               </span>
               <p className="my-4 font-sans md:mt-6 max-w-xl text-sm md:text-sm lg:text-lg font-light leading-relaxed">
-                Final-year IT student and full-stack developer building
-                complete products with Next.js, TypeScript, Node.js,
-                Express, PostgreSQL, and Prisma — from restaurant ERPs to
-                AI-driven language tools.
+                Final-year IT student and full-stack developer building complete
+                products with Next.js, TypeScript, Node.js, Express, PostgreSQL,
+                and Prisma — from restaurant ERPs to AI-driven language tools.
               </p>
             </div>
           </div>
@@ -78,24 +77,24 @@ const Hero = () => {
             className="group relative h-64 w-64 transition-opacity duration-500 ease-out md:h-80 md:w-64 lg:h-[30rem] lg:w-[25rem]"
           >
             <span className="pointer-events-none absolute -inset-2 rounded-xl bg-gradient-to-br from-violet-500/50 via-fuchsia-500/20 to-transparent opacity-0 blur-xl transition-opacity duration-500 group-hover:opacity-100" />
-            {/* <Image
+            <Image
               width={500}
               height={500}
-              src="/images/milan.png"
+              src={`./images/milan.png`}
               style={{ objectFit: "cover" }}
               alt="Milan Bhattarai - Full-Stack Web Developer"
               title="Milan Bhattarai - Portfolio Picture"
               priority
               unoptimized
               className="relative rounded-lg contrast-75 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.7)] transition-all ease-linear duration-700 group-hover:contrast-100"
+            />
+            {/* <img
+              src="/images/milan.png"
+              alt="Milan Bhattarai"
+              className="relative rounded-lg contrast-75 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.7)] transition-all ease-linear duration-700 group-hover:contrast-100"
+              width={500}
+              height={500}
             /> */}
-            <img
-  src="/images/milan.png"
-  alt="Milan Bhattarai"
-  className="relative rounded-lg contrast-75 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.7)] transition-all ease-linear duration-700 group-hover:contrast-100"
-  width={500}
-  height={500}
-/>
           </motion.div>
         </motion.div>
       </div>
