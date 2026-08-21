@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export', 
   images: {
+    domains: ['scholib.com'],
     unoptimized: true,
   },
 };
