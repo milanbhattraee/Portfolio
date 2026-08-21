@@ -85,6 +85,7 @@ const Hero = () => {
               alt="Milan Bhattarai - Full-Stack Web Developer"
               title="Milan Bhattarai - Portfolio Picture"
               priority
+              unoptimized
               className="relative rounded-lg contrast-75 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.7)] transition-all ease-linear duration-700 group-hover:contrast-100"
             />
           </motion.div>
